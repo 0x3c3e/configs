@@ -21,5 +21,6 @@ If keyboard/mouse don't work:
 ## Storage performance
 * [raw](https://www.heiko-sieger.info/tuning-vm-disk-performance/) disk image
 
-## macOS image
-Download using [fetch-macOS-v2.py](https://github.com/kholia/OSX-KVM/blob/master/fetch-macOS-v2.py) script
+## Get macOS image
+* Download full installer using [installinstallmacos.py](https://github.com/munki/macadmin-scripts/blob/main/installinstallmacos.py) or [Makefile](https://github.com/thenickdude/OSX-KVM/blob/master/scripts/ventura/Makefile)
+* Download recovery image using [fetch-macOS-v2.py](https://github.com/kholia/OSX-KVM/blob/master/fetch-macOS-v2.py) script (*slow*)
