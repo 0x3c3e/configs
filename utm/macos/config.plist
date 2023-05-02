@@ -86,7 +86,6 @@
 		<key>AdditionalArguments</key>
 		<array>
 			<string>-device isa-applesmc,osk="ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc" -smbios type=2</string>
-			<string>-usb -device usb-kbd -device usb-tablet -global nec-usb-xhci.msi=off</string>
 			<string>-s -S</string>
 		</array>
 		<key>BalloonDevice</key>
@@ -96,7 +95,7 @@
 		<key>Hypervisor</key>
 		<false/>
 		<key>PS2Controller</key>
-		<true/>
+		<false/>
 		<key>RNGDevice</key>
 		<true/>
 		<key>RTCLocalTime</key>
