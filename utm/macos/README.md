@@ -1,11 +1,18 @@
-# UTM config to boot latest x86 macOS in QEMU
+# UTM config to boot x86 macOS in QEMU
 
 ## Tested on
-* Monterey 12.6.5
-* Ventura 13.3.1
+* Big Sur 11.7
+* Monterey 12.6
+* Ventura 13.3
 
 ## Dependencies
 * [OpenCore](https://github.com/thenickdude/KVM-Opencore/releases/download/v20/OpenCore-v20.iso.gz)
+* [UTM, Version 4.2.5](https://github.com/utmapp/UTM/releases/tag/v4.2.5)
+
+## Troubleshooting
+If keyboard/mouse don't work:
+* turn on `Force PS/2 controller` option
+* add `-global nec-usb-xhci.msi=off -usb -device usb-kbd -device usb-tablet`
 
 ## Supported CPUs
 * Sandy Bridge
