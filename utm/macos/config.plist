@@ -25,18 +25,6 @@
 	<array>
 		<dict>
 			<key>Identifier</key>
-			<string>7A205435-F133-4126-A216-9AF9E6392EEE</string>
-			<key>ImageName</key>
-			<string>OVMF.bin</string>
-			<key>ImageType</key>
-			<string>BIOS</string>
-			<key>Interface</key>
-			<string>None</string>
-			<key>ReadOnly</key>
-			<false/>
-		</dict>
-		<dict>
-			<key>Identifier</key>
 			<string>5DB0136A-B3A9-4148-A677-ABD85512A495</string>
 			<key>ImageName</key>
 			<string>OpenCore-v20.qcow2</string>
