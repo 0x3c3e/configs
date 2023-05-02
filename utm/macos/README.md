@@ -1,4 +1,7 @@
+# UTM config to boot latest x86 macOS in QEMU
+
 ## Tested on
+* Monterey 12.6.5
 * Ventura 13.3.1
 
 ## Dependencies
