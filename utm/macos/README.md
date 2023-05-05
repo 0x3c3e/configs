@@ -1,5 +1,13 @@
 # UTM config to boot x86 macOS in QEMU
 
+## How to use?
+* Create a new folder and name it with a `.utm` extension
+* Place the provided [config.plist](https://github.com/0x3c3e/configs/blob/main/utm/macos/config.plist) file inside the folder
+* Delete any existing drives in the UTM virtual machine
+* Add the provided [OpenCore file](https://github.com/thenickdude/KVM-Opencore/releases/download/v20/OpenCore-v20.iso.gz) to the virtual machine
+* Add a macOS installer to the virtual machine
+* Add a blank disk to the virtual machine
+
 ## Tested on
 * Big Sur 11.7
 * Monterey 12.6
